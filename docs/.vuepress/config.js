@@ -6,7 +6,7 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   bundler: viteBundler(),
 
-  base: "/vuepress/",
+  base: "/vuepresstest/",
   locales: {
     '/': {
       lang: 'zh-TW',
