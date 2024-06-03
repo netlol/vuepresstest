@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.13" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+        document.documentElement.classList.toggle('dark', true)
+      }
+    </script>
+    <title>Title測試</title><meta name="description" content="vuepress Title測試">
+    <link rel="preload" href="/vuepress/assets/style-yNDEjq-q.css" as="style"><link rel="stylesheet" href="/vuepress/assets/style-yNDEjq-q.css">
+    <link rel="modulepreload" href="/vuepress/assets/app-NLrvAC-Z.js"><link rel="modulepreload" href="/vuepress/assets/404.html-Bo0w0aSS.js">
+    <link rel="prefetch" href="/vuepress/assets/index.html-CxzZNExi.js" as="script"><link rel="prefetch" href="/vuepress/assets/ch01.html-Cch-4cGm.js" as="script"><link rel="prefetch" href="/vuepress/assets/ch02.html-C1UBRsjh.js" as="script"><link rel="prefetch" href="/vuepress/assets/preface.html-CwjF04V5.js" as="script"><link rel="prefetch" href="/vuepress/assets/summary.html-DR-WgweC.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/vuepress/">Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/vuepress/assets/app-NLrvAC-Z.js" defer></script>
+  </body>
+</html>
